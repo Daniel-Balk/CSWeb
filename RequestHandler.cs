@@ -58,7 +58,7 @@ namespace CSWeb
             return File.ReadAllBytes(fullFile);
         }
 
-        public bool IsPathSave(string path, string domainPath)
+        public static bool IsPathSave(string path, string domainPath)
         {
             if (Path.GetFullPath(path).StartsWith(Path.GetFullPath(domainPath)))
                 return true;
