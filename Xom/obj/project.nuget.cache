@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "im+bQ6nH+aFOwIIfAmVSQog6GhGds6vgXGbKUlNdm/G6xuDXziEGQ1zU1IXpww2DE70qtgmqCzPx+sEn2VJ9qw==",
+  "dgSpecHash": "68HdlSSPw0LzG1pRl02umQ1L7/h1tg5TeU3PC/1mBan0GnWNyP6UCmNqyGgNibQSHM0UciCzXvCi3R+m1Dyt9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj",
+  "projectFilePath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

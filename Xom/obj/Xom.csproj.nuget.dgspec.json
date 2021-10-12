@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj": {}
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj": {
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj",
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
         "projectName": "Xom",
-        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
         "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\obj\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

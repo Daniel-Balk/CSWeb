@@ -1,0 +1,16 @@
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.exe
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.deps.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.runtimeconfig.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.runtimeconfig.dev.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\ref\CSWeb.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\CSWeb.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.csproj.AssemblyReference.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.AssemblyInfoInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.AssemblyInfo.cs
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.csproj.CoreCompileInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\ref\CSWeb.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\obj\Release\net5.0\CSWeb.genruntimeconfig.cache

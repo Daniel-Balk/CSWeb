@@ -1,0 +1,8 @@
+# Folders for Test-Building
+linux-x64
+win-x86
+obj/Release/net5.0/CSWeb.csproj.FileListAbsolute.txt
+*.cache
+obj/Release/net5.0/apphost.exe
+bin/Release/net5.0/publish/CSWeb
+obj/Release/net5.0/PublishOutputs.857007bf59.txt

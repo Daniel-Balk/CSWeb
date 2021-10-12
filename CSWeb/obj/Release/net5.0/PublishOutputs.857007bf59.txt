@@ -1,0 +1,5 @@
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\publish\CSWeb.exe
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\publish\CSWeb.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\publish\CSWeb.deps.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\publish\CSWeb.runtimeconfig.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\bin\Release\net5.0\publish\CSWeb.pdb
