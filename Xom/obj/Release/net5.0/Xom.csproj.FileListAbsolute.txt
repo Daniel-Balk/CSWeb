@@ -1,0 +1,12 @@
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\bin\Release\net5.0\Xom.deps.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\bin\Release\net5.0\Xom.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\bin\Release\net5.0\ref\Xom.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\bin\Release\net5.0\Xom.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.AssemblyInfoInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.AssemblyInfo.cs
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.csproj.CoreCompileInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\ref\Xom.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Release\net5.0\Xom.csproj.AssemblyReference.cache

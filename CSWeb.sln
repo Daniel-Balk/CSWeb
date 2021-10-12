@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSWeb", "CSWeb\CSWeb.csproj", "{39F60337-8604-48ED-B12F-193610DC4624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xom", "Xom\Xom.csproj", "{DD3B0B74-7685-4B59-8BB3-0F13CD7FB554}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xom", "Xom\Xom.csproj", "{DD3B0B74-7685-4B59-8BB3-0F13CD7FB554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XomTesting", "XomTesting\XomTesting.csproj", "{B932CAF0-8C10-46B2-8850-72149D866B87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DD3B0B74-7685-4B59-8BB3-0F13CD7FB554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD3B0B74-7685-4B59-8BB3-0F13CD7FB554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD3B0B74-7685-4B59-8BB3-0F13CD7FB554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B932CAF0-8C10-46B2-8850-72149D866B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B932CAF0-8C10-46B2-8850-72149D866B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B932CAF0-8C10-46B2-8850-72149D866B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B932CAF0-8C10-46B2-8850-72149D866B87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

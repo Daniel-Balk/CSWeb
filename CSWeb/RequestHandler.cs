@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Xom;
 
 namespace CSWeb
 {
@@ -29,7 +30,15 @@ namespace CSWeb
             var fullPath = pth + request.RawUrl;
             var save = IsPathSave(fullPath, pth);
             byte[] bytes;
-            if (save)
+            XomInterfaceManager.GetRenderingPage(request.RawUrl, out bool useXom, out IPluginPage page);
+            if (useXom)
+            {
+                var builder = new XomBuilder(request.RawUrl);
+                page.BuildWebsite(builder);
+                var bts = builder.ReadAll();
+                bytes = bts;
+            }
+            else if (save)
             {
                 bytes = GetFromFile(fullPath);
             }
@@ -37,11 +46,9 @@ namespace CSWeb
             {
                 bytes = GetFromFile(pth);
             }
-            // Get a response stream and write the response to it.
             response.ContentLength64 = bytes.Length;
             Stream output = response.OutputStream;
             output.Write(bytes, 0, bytes.Length);
-            // You must close the output stream.
             output.Close();
         }
 

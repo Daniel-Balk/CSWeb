@@ -29,9 +29,15 @@ namespace CSWeb
 
             }
         }
-
+        
         public void Start()
         {
+            XomInterfaceManager.Pages.Clear();
+            var register = new XomInterfaceManager();
+            foreach (var xomPlugin in DllLoader.PLUGINS)
+            {
+                xomPlugin.RegistryRoutes(register);
+            }
             var prefixes = new string[] { "http://" + Adress + ":" + Port + "/" };
             if (!HttpListener.IsSupported)
             {

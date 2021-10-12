@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "CSWeb/1.0.0": {
+        "dependencies": {
+          "Xom": "1.0.0"
+        },
         "runtime": {
           "CSWeb.dll": {}
+        }
+      },
+      "Xom/1.0.0": {
+        "runtime": {
+          "Xom.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CSWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xom/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

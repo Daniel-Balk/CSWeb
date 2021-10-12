@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "68HdlSSPw0LzG1pRl02umQ1L7/h1tg5TeU3PC/1mBan0GnWNyP6UCmNqyGgNibQSHM0UciCzXvCi3R+m1Dyt9w==",
+  "dgSpecHash": "un9hADxPxdhaHxeA/l/EMUhwh0crOhg8py4LGlHNEwUoblJ8XVLlpaYpPVQNLtm312ZzejltWao/3HXY1hf8qQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dalk YouTube\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\5.0.10\\microsoft.netcore.app.runtime.linux-x64.5.0.10.nupkg.sha512",
+    "C:\\Users\\Dalk YouTube\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\5.0.10\\microsoft.aspnetcore.app.runtime.linux-x64.5.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

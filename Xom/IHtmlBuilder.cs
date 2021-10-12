@@ -5,7 +5,7 @@
         void Write(string str);
         void Write(byte[] bytes);
         void Write(object o);
-        string ReadAll();
+        byte[] ReadAll();
         string GetPath();
     }
 }

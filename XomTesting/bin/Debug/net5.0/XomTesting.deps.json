@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "XomTesting/1.0.0": {
+        "dependencies": {
+          "Xom": "1.0.0"
+        },
+        "runtime": {
+          "XomTesting.dll": {}
+        }
+      },
+      "Xom/1.0.0": {
+        "runtime": {
+          "Xom.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XomTesting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
