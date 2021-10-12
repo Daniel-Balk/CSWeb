@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v5.0": {
       "CSWeb/1.0.0": {
         "dependencies": {
+          "CwMan": "1.0.0",
           "Xom": "1.0.0"
         },
         "runtime": {
           "CSWeb.dll": {}
+        }
+      },
+      "CwMan/1.0.0": {
+        "runtime": {
+          "CwMan.dll": {}
         }
       },
       "Xom/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "CSWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CwMan/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "CwMan/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CwMan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CwMan.dll": {}
+        }
+      },
       "Xom/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "CwMan/1.0.0": {
+      "type": "project",
+      "path": "../CwMan/CwMan.csproj",
+      "msbuildProject": "../CwMan/CwMan.csproj"
+    },
     "Xom/1.0.0": {
       "type": "project",
       "path": "../Xom/Xom.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CwMan >= 1.0.0",
       "Xom >= 1.0.0"
     ]
   },
@@ -63,6 +79,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+              "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+            },
             "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {
               "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj"
             }

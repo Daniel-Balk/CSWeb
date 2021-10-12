@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CwMan\CwMan.csproj" />
     <ProjectReference Include="..\Xom\Xom.csproj" />
   </ItemGroup>
 

@@ -10,12 +10,14 @@ namespace CSWeb
         {
             try
             {
+                CwMan.Constant.GoIn();
                 var config = new IniReader();
                 config.Read(File.ReadAllText("csweb.ini"));
                 DllLoader.XomLoad();
                 WebServer ws = new(config);
                 ws.Start();
                 DllLoader.StopXom();
+                CwMan.Constant.GoOut();
             }
             catch(Exception ex)
             {

@@ -1,0 +1,11 @@
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\bin\Release\net5.0\CwMan.deps.json
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\bin\Release\net5.0\CwMan.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\bin\Release\net5.0\ref\CwMan.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\bin\Release\net5.0\CwMan.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.AssemblyInfoInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.AssemblyInfo.cs
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.csproj.CoreCompileInputs.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\ref\CwMan.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Release\net5.0\CwMan.pdb
