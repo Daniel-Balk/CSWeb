@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Xom/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Xom.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Xom.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Xom/1.0.0": {
+      "type": "project",
+      "path": "../Xom/Xom.csproj",
+      "msbuildProject": "../Xom/Xom.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Xom >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dalk YouTube\\.nuget\\packages\\": {},
@@ -43,7 +62,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj": {
+              "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\Xom\\Xom.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
