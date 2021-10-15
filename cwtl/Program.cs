@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CwMan;
+using System;
 
 namespace cwtl
 {
@@ -6,7 +7,23 @@ namespace cwtl
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            if(args.Length == 0)
+            {
+                Logger.Error("Cannot contuinue without arguments");
+                return;
+            }
+            switch (args[0].ToLower())
+            {
+                case "start":
+                    Actions.Start();
+                    break;
+                case "stop":
+                    Actions.Abort();
+                    break;
+                default:
+                    Logger.Error("Unknown argument: " + args[0]);
+                    break;
+            }
         }
     }
 }
