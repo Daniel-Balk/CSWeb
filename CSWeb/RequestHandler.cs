@@ -17,8 +17,10 @@ namespace CSWeb
             config = reader;
         }
         IniReader config;
+        HttpListenerRequest rqt = null;
         public void Handle(HttpListenerRequest request, HttpListenerResponse response, HttpListenerContext context)
         {
+            rqt = request;
             var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", request.UserHostAddress.Split(':')[0]);
             if (!Directory.Exists(pth))
                 pth = config.Sections["Routing"].Values["wwwroot"].Value;
@@ -54,6 +56,16 @@ namespace CSWeb
 
         private byte[] GetFromFile(string path)
         {
+            var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", rqt.UserHostAddress.Split(':')[0]);
+            if (!Directory.Exists(pth))
+                pth = config.Sections["Routing"].Values["wwwroot"].Value;
+            if (pth.TrimEnd().EndsWith("/"))
+                pth = pth.Remove(pth.Length - 1);
+            if (pth.TrimEnd().EndsWith("\\"))
+                pth = pth.Remove(pth.Length - 1);
+            pth = pth.Replace(":", "");
+
+
 
             var fullFile = path;
             if (Directory.Exists(fullFile))
@@ -61,7 +73,14 @@ namespace CSWeb
                     fullFile += config.Sections["Routing"].Values["dirindex"].Value;
 
             if (!File.Exists(fullFile))
-                return File.ReadAllBytes(config.Sections["Routing"].Values["404"].Value);
+            {
+                if (File.Exists(pth + "/" + config.Sections["Routing"].Values["404"].Value))
+                    return File.ReadAllBytes(pth + "/" + config.Sections["Routing"].Values["404"].Value);
+                if (File.Exists(config.Sections["Routing"].Values["wwwroot"].Value + config.Sections["Routing"].Values["404"].Value))
+                    return File.ReadAllBytes(config.Sections["Routing"].Values["wwwroot"].Value + config.Sections["Routing"].Values["404"].Value);
+                else
+                    return File.ReadAllBytes(config.Sections["Routing"].Values["404"].Value);
+            }
             return File.ReadAllBytes(fullFile);
         }
 

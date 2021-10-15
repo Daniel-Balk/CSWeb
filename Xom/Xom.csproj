@@ -14,11 +14,4 @@
     <DefineConstants />
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\CSWeb\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
-
 </Project>
