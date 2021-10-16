@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestBuildAll/1.0.0": {
+        "dependencies": {
+          "CSWeb": "1.0.0",
+          "CwMan": "1.0.0",
+          "Xom": "1.0.0",
+          "cw-dismod": "1.0.0",
+          "cw-enmod": "1.0.0",
+          "cwtl": "1.0.0"
+        },
+        "runtime": {
+          "TestBuildAll.dll": {}
+        }
+      },
+      "CSWeb/1.0.0": {
+        "dependencies": {
+          "CwMan": "1.0.0",
+          "Xom": "1.0.0"
+        },
+        "runtime": {
+          "CSWeb.dll": {}
+        }
+      },
+      "cw-dismod/1.0.0": {
+        "dependencies": {
+          "CwMan": "1.0.0"
+        },
+        "runtime": {
+          "cw-dismod.dll": {}
+        }
+      },
+      "cw-enmod/1.0.0": {
+        "dependencies": {
+          "CwMan": "1.0.0"
+        },
+        "runtime": {
+          "cw-enmod.dll": {}
+        }
+      },
+      "CwMan/1.0.0": {
+        "runtime": {
+          "CwMan.dll": {}
+        }
+      },
+      "cwtl/1.0.0": {
+        "dependencies": {
+          "CwMan": "1.0.0"
+        },
+        "runtime": {
+          "cwtl.dll": {}
+        }
+      },
+      "Xom/1.0.0": {
+        "runtime": {
+          "Xom.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestBuildAll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cw-dismod/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cw-enmod/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CwMan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cwtl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Xom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

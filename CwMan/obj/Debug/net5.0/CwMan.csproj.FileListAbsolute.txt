@@ -9,3 +9,5 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\CwMan.csproj.CoreCo
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\CwMan.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\ref\CwMan.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\CwMan.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\CwMan.Properties.Resources.resources
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CwMan\obj\Debug\net5.0\CwMan.csproj.GenerateResource.cache

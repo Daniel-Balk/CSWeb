@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CSWeb\CSWeb.csproj" />
+    <ProjectReference Include="..\cw-dismod\cw-dismod.csproj" />
+    <ProjectReference Include="..\cw-enmod\cw-enmod.csproj" />
+    <ProjectReference Include="..\CwMan\CwMan.csproj" />
+    <ProjectReference Include="..\cwtl\cwtl.csproj" />
+    <ProjectReference Include="..\Xom\Xom.csproj" />
+  </ItemGroup>
+
+</Project>

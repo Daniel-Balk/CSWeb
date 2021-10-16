@@ -23,8 +23,7 @@ namespace CwMan
                     _ => Ctl("/etc/csweb/"),
                 };
             }
-        }
-        
+        }        
         public static string CSWebFile
         {
             get
@@ -43,8 +42,7 @@ namespace CwMan
                     _ => "CSWeb"
                 };
             }
-        }
-        
+        }        
         public static string CWTLFile
         {
             get
@@ -63,8 +61,7 @@ namespace CwMan
                     _ => "cwtl"
                 };
             }
-        }
-        
+        }        
         public static string CWEnModFile
         {
             get
@@ -83,8 +80,7 @@ namespace CwMan
                     _ => "cw-enmod"
                 };
             }
-        }
-        
+        }        
         public static string CWDisModFile
         {
             get
@@ -104,7 +100,6 @@ namespace CwMan
                 };
             }
         }
-
         private static string Ctl(string v)
         {
             if (!Directory.Exists(v))
@@ -112,7 +107,6 @@ namespace CwMan
 
             return v;
         }
-
         public static void GoIn()
         {
             temDir = Environment.CurrentDirectory;

@@ -12,6 +12,7 @@ namespace cwtl
                 Logger.Error("Cannot contuinue without arguments");
                 return;
             }
+            Constant.GoIn();
             switch (args[0].ToLower())
             {
                 case "start":
@@ -20,10 +21,18 @@ namespace cwtl
                 case "stop":
                     Actions.Abort();
                     break;
+                case "install":
+                    Constant.GoOut();
+                    Actions.Setup();
+                    break;
                 default:
                     Logger.Error("Unknown argument: " + args[0]);
                     break;
             }
+
+
+
+            Constant.GoOut();
         }
     }
 }

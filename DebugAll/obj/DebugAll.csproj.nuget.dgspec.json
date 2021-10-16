@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\DebugAll.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\CSWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\CSWeb.csproj",
+        "projectName": "CSWeb",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\CSWeb.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\cw-dismod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\cw-dismod.csproj",
+        "projectName": "cw-dismod",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\cw-dismod.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\cw-enmod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\cw-enmod.csproj",
+        "projectName": "cw-enmod",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\cw-enmod.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj",
+        "projectName": "CwMan",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\cwtl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\cwtl.csproj",
+        "projectName": "cwtl",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\cwtl.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\DebugAll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\DebugAll.csproj",
+        "projectName": "DebugAll",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\DebugAll.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\CSWeb.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CSWeb\\CSWeb.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\cw-dismod.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-dismod\\cw-dismod.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\cw-enmod.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cw-enmod\\cw-enmod.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\CwMan\\CwMan.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\cwtl.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\cwtl\\cwtl.csproj"
+              },
+              "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {
+                "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
+        "projectName": "Xom",
+        "projectPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\Xom.csproj",
+        "packagesPath": "C:\\Users\\Dalk YouTube\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\Xom\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Syncfusion\\Essential Studio\\WinUI\\19.2.0.44\\NuGetPackages": {},
+          "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CwMan;
+using System.Diagnostics;
 
 namespace cw_enmod
 {
@@ -6,7 +7,13 @@ namespace cw_enmod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Constant.GoIn();
+            var i = Process.GetProcessesByName("CSWeb").Length;
+            Actions.Abort();
+            Actions.EnMod(args);
+            if (i != 0)
+                Actions.Start();
+            Constant.GoOut();
         }
     }
 }
