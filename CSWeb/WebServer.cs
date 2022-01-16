@@ -1,7 +1,8 @@
 ﻿using CSWeb.Configuration;
+using Dalk.Web.HttpServer;
+using Logging.Net;
 using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Threading;
 
 namespace CSWeb
@@ -38,44 +39,24 @@ namespace CSWeb
             {
                 xomPlugin.RegistryRoutes(register);
             }
-            var prefixes = new string[] { "http://" + Adress + ":" + Port + "/" };
-            if (!HttpListener.IsSupported)
-            {
-                Logger.Error("HttpListener class is unsupported!");
-                return;
-            }
-            else
-            {
-                Logger.Info("Starting HTTP Webserver on " + Port);
-            }
-            if (prefixes == null || prefixes.Length == 0)
-            {
-                Logger.Error("No Server/Port; Aborting");
-                return;
-            }
-            HttpListener listener = new();
+            
+            HttpListener listener = new(Port);
             Logger.Info("Initialized Listener");
-            foreach (string s in prefixes)
-            {
-                listener.Prefixes.Add(s);
-            }
             listener.Start();
             Logger.Info("Listener started");
-            disposing.Add(listener);
             IRequestHandler rh = new RequestHandler();
             rh.Configure(Config);
             while (listen)
             {
                 if (solve)
                 {
-                    HttpListenerContext context = listener.GetContext();
-                    HttpListenerRequest request = context.Request;
-                    Logger.Info("AccessLog: Request by " + request.RemoteEndPoint.Address + " for " + request.UserHostAddress);
-                    HttpListenerResponse response = context.Response;
+                    var request = listener.AcceptRequest();
+                    Logger.Info("AccessLog: Request by " + request.GetSender().Client.RemoteEndPoint + " for " + request.Headers["Host"]);
+                    var response = request.GetResponse();
                     Thread t = null;
                     t = new Thread(new ThreadStart(() =>
                     {
-                        rh.Handle(request, response, context);
+                        rh.Handle(request, response);
                         t.Interrupt();
                     }));
                     t.Start();

@@ -1,11 +1,6 @@
 ﻿using CSWeb.Configuration;
-using System;
-using System.Collections.Generic;
+using Dalk.Web.HttpServer;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using Xom;
 
 namespace CSWeb
@@ -17,11 +12,11 @@ namespace CSWeb
             config = reader;
         }
         IniReader config;
-        HttpListenerRequest rqt = null;
-        public void Handle(HttpListenerRequest request, HttpListenerResponse response, HttpListenerContext context)
+        HttpRequest rqt = null;
+        public void Handle(HttpRequest request, HttpResponse response)
         {
             rqt = request;
-            var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", request.UserHostAddress.Split(':')[0]);
+            var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", request.Headers["Host"]);
             if (!Directory.Exists(pth))
                 pth = config.Sections["Routing"].Values["wwwroot"].Value;
             if (pth.TrimEnd().EndsWith("/"))
@@ -29,13 +24,13 @@ namespace CSWeb
             if (pth.TrimEnd().EndsWith("\\"))
                 pth = pth.Remove(pth.Length - 1);
             pth = pth.Replace(":", "");
-            var fullPath = pth + request.RawUrl;
+            var fullPath = pth + request.Path;
             var save = IsPathSave(fullPath, pth);
             byte[] bytes;
-            XomInterfaceManager.GetRenderingPage(request.RawUrl, out bool useXom, out IPluginPage page);
+            XomInterfaceManager.GetRenderingPage(request.Path, out bool useXom, out IPluginPage page);
             if (useXom)
             {
-                var builder = new XomBuilder(request.RawUrl);
+                var builder = new XomBuilder(request.Path);
                 page.BuildWebsite(builder);
                 var bts = builder.ReadAll();
                 bytes = bts;
@@ -48,15 +43,14 @@ namespace CSWeb
             {
                 bytes = GetFromFile(pth);
             }
-            response.ContentLength64 = bytes.Length;
-            Stream output = response.OutputStream;
-            output.Write(bytes, 0, bytes.Length);
-            output.Close();
+            response.ContentLenght = bytes.Length;
+            response.Write(bytes);
+            response.Send();
         }
 
         private byte[] GetFromFile(string path)
         {
-            var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", rqt.UserHostAddress.Split(':')[0]);
+            var pth = config.Sections["Routing"].Values["domainwwwroot"].Value.Replace("{domain}", rqt.Headers["Host"]);
             if (!Directory.Exists(pth))
                 pth = config.Sections["Routing"].Values["wwwroot"].Value;
             if (pth.TrimEnd().EndsWith("/"))

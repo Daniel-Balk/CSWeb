@@ -1,10 +1,10 @@
-﻿using System.Net;
+﻿using Dalk.Web.HttpServer;
 
 namespace CSWeb
 {
     public interface IRequestHandler
     {
-        void Handle(HttpListenerRequest request, HttpListenerResponse response, HttpListenerContext context);
+        void Handle(HttpRequest request, HttpResponse response);
         void Configure(Configuration.IniReader reader);
     }
 }

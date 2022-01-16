@@ -2,11 +2,42 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Dalk.Web/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Dalk.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dalk.Web.dll": {}
+        }
+      },
+      "Logging.Net/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Logging.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Logging.Net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "CSWeb/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CwMan": "1.0.0",
+          "Dalk.Web": "1.0.1",
           "Xom": "1.0.0"
         },
         "compile": {
@@ -45,6 +76,9 @@
       "CwMan/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Logging.Net": "1.0.6"
+        },
         "compile": {
           "bin/placeholder/CwMan.dll": {}
         },
@@ -78,6 +112,85 @@
     }
   },
   "libraries": {
+    "Dalk.Web/1.0.1": {
+      "sha512": "y4QzVy+/BVHwGi2BFk4ZGeEX7EdUyr3vBC+9zWczDi8jmaNQkqhyDagBQGZiCczv59j23qXKM9/ao7aSFolEnQ==",
+      "type": "package",
+      "path": "dalk.web/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Readme.md",
+        "dalk.web.1.0.1.nupkg.sha512",
+        "dalk.web.nuspec",
+        "lib/net45/Dalk.Web.dll",
+        "lib/net451/Dalk.Web.dll",
+        "lib/net452/Dalk.Web.dll",
+        "lib/net46/Dalk.Web.dll",
+        "lib/net461/Dalk.Web.dll",
+        "lib/net462/Dalk.Web.dll",
+        "lib/net47/Dalk.Web.dll",
+        "lib/net471/Dalk.Web.dll",
+        "lib/net472/Dalk.Web.dll",
+        "lib/net48/Dalk.Web.dll",
+        "lib/net5.0/Dalk.Web.dll",
+        "lib/net6.0/Dalk.Web.dll",
+        "lib/netcoreapp3.1/Dalk.Web.dll"
+      ]
+    },
+    "Logging.Net/1.0.6": {
+      "sha512": "+RYxS1gnbr7xOd+8AvVYI/59FC244Zcy7hkUMq8AdW/8rMSTIe93tXhpbHYXpAkdIzuO/NOFZIAkCNMkd6t0zA==",
+      "type": "package",
+      "path": "logging.net/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net40/Logging.Net.dll",
+        "lib/net45/Logging.Net.dll",
+        "lib/net451/Logging.Net.dll",
+        "lib/net452/Logging.Net.dll",
+        "lib/net46/Logging.Net.dll",
+        "lib/net461/Logging.Net.dll",
+        "lib/net462/Logging.Net.dll",
+        "lib/net47/Logging.Net.dll",
+        "lib/net471/Logging.Net.dll",
+        "lib/net472/Logging.Net.dll",
+        "lib/net48/Logging.Net.dll",
+        "lib/net5.0/Logging.Net.dll",
+        "lib/net6.0/Logging.Net.dll",
+        "lib/netcoreapp3.1/Logging.Net.dll",
+        "logging.net.1.0.6.nupkg.sha512",
+        "logging.net.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "CSWeb/1.0.0": {
       "type": "project",
       "path": "../CSWeb/CSWeb.csproj",
@@ -121,8 +234,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Dalk YouTube\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -134,14 +246,12 @@
       "outputPath": "C:\\Users\\Dalk YouTube\\src\\CSWeb\\CSWeb\\DebugAll\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Dalk YouTube\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -201,7 +311,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

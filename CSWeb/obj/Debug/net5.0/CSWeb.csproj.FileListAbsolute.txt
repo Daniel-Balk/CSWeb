@@ -35,3 +35,5 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\obj\Debug\net5.0\CSWeb.pdb
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\obj\Debug\net5.0\CSWeb.genruntimeconfig.cache
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\bin\Debug\net5.0\CwMan.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\bin\Debug\net5.0\CwMan.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\bin\Debug\net5.0\Dalk.Web.dll
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\CSWeb\bin\Debug\net5.0\Newtonsoft.Json.dll
