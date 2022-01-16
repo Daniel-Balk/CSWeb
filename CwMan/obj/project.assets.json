@@ -11,17 +11,6 @@
           "lib/net5.0/Logging.Net.dll": {}
         }
       }
-    },
-    "net5.0/linux-x64": {
-      "Logging.Net/1.0.6": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Logging.Net.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Logging.Net.dll": {}
-        }
-      }
     }
   },
   "libraries": {
@@ -119,27 +108,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[5.0.12, 5.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "linux-x64": {
-        "#import": []
       }
     }
   }

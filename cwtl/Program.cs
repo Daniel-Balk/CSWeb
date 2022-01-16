@@ -1,4 +1,5 @@
 ﻿using CwMan;
+using Logging.Net;
 using System;
 
 namespace cwtl

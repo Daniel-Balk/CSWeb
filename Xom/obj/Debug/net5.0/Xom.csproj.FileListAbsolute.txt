@@ -21,3 +21,4 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Debug\net5.0\Xom.csproj.CoreCompil
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Debug\net5.0\Xom.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Debug\net5.0\ref\Xom.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Debug\net5.0\Xom.pdb
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\Xom\obj\Debug\net5.0\Xom.csproj.AssemblyReference.cache

@@ -17,3 +17,4 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-dismod\obj\Release\net5.0\cw-dismod.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-dismod\obj\Release\net5.0\ref\cw-dismod.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-dismod\obj\Release\net5.0\cw-dismod.pdb
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-dismod\obj\Release\net5.0\cw-dismod.genruntimeconfig.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-dismod\bin\Release\net5.0\Logging.Net.dll

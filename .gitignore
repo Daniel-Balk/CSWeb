@@ -11,3 +11,5 @@ CSWeb/bin/Release/net5.0/publish/CSWeb
 *.pdb
 cw-dismod/bin/Release/net5.0/publish/cw-dismod
 cw-unpack/bin/Release/net5.0/publish/cw-unpack-linux
+*.zip
+obj

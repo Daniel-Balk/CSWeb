@@ -14,7 +14,18 @@
           "cwtl.dll": {}
         }
       },
+      "Logging.Net/1.0.6": {
+        "runtime": {
+          "lib/net5.0/Logging.Net.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        }
+      },
       "CwMan/1.0.0": {
+        "dependencies": {
+          "Logging.Net": "1.0.6"
+        },
         "runtime": {
           "CwMan.dll": {}
         }
@@ -26,6 +37,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Logging.Net/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+RYxS1gnbr7xOd+8AvVYI/59FC244Zcy7hkUMq8AdW/8rMSTIe93tXhpbHYXpAkdIzuO/NOFZIAkCNMkd6t0zA==",
+      "path": "logging.net/1.0.6",
+      "hashPath": "logging.net.1.0.6.nupkg.sha512"
     },
     "CwMan/1.0.0": {
       "type": "project",

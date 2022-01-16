@@ -17,3 +17,4 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-enmod\obj\Debug\net5.0\cw-enmod.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-enmod\obj\Debug\net5.0\ref\cw-enmod.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-enmod\obj\Debug\net5.0\cw-enmod.pdb
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-enmod\obj\Debug\net5.0\cw-enmod.genruntimeconfig.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cw-enmod\bin\Debug\net5.0\Logging.Net.dll

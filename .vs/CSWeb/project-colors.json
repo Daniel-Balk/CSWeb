@@ -5,7 +5,42 @@
       "ProjectGuid": "39f60337-8604-48ed-b12f-193610dc4624",
       "DisplayName": "CSWeb",
       "ColorIndex": 0
+    },
+    "8b923ef3-d65c-4ccb-bc0f-6cd3b59c2091": {
+      "ProjectGuid": "8b923ef3-d65c-4ccb-bc0f-6cd3b59c2091",
+      "DisplayName": "TestBuildAll",
+      "ColorIndex": 1
+    },
+    "b932caf0-8c10-46b2-8850-72149d866b87": {
+      "ProjectGuid": "b932caf0-8c10-46b2-8850-72149d866b87",
+      "DisplayName": "XomTesting",
+      "ColorIndex": 2
+    },
+    "60c16e44-057c-4738-8098-1897f32bcb80": {
+      "ProjectGuid": "60c16e44-057c-4738-8098-1897f32bcb80",
+      "DisplayName": "cw-dismod",
+      "ColorIndex": 3
+    },
+    "c9e54d7d-0008-49d1-acb2-7e57a1b9c159": {
+      "ProjectGuid": "c9e54d7d-0008-49d1-acb2-7e57a1b9c159",
+      "DisplayName": "CwMan",
+      "ColorIndex": 4
+    },
+    "b35b9cb2-dabd-4a65-94ca-eed1633c51a8": {
+      "ProjectGuid": "b35b9cb2-dabd-4a65-94ca-eed1633c51a8",
+      "DisplayName": "cwtl",
+      "ColorIndex": 5
+    },
+    "193a7f27-23e5-4673-bdec-599d71c0770b": {
+      "ProjectGuid": "193a7f27-23e5-4673-bdec-599d71c0770b",
+      "DisplayName": "cw-enmod",
+      "ColorIndex": 6
+    },
+    "76546751-02de-4de3-a627-75b32c479228": {
+      "ProjectGuid": "76546751-02de-4de3-a627-75b32c479228",
+      "DisplayName": "cw-unpack-linux",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 8
 }

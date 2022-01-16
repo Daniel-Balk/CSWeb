@@ -17,3 +17,4 @@ C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cwtl\obj\Release\net5.0\cwtl.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cwtl\obj\Release\net5.0\ref\cwtl.dll
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cwtl\obj\Release\net5.0\cwtl.pdb
 C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cwtl\obj\Release\net5.0\cwtl.genruntimeconfig.cache
+C:\Users\Dalk YouTube\src\CSWeb\CSWeb\cwtl\bin\Release\net5.0\Logging.Net.dll
