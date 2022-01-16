@@ -1,4 +1,5 @@
 ﻿using CwMan.Properties;
+using Logging.Net;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
